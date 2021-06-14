@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ShowMeTheMoney", "ShowMeTheMoney\ShowMeTheMoney.vcxproj", "{76CCDDA3-00D4-4857-8AFF-03F4F8624B00}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{0D55B597-F23E-4128-AA3F-220C0C366482}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Headers", "Headers", "{AA3FE639-320E-4E06-BB1B-B74DA177D5CC}"
+	ProjectSection(SolutionItems) = preProject
+		Bin\Include\Enum.h = Bin\Include\Enum.h
+		Bin\Include\Function.h = Bin\Include\Function.h
+		Bin\Include\Macro.h = Bin\Include\Macro.h
+		Bin\Include\Manager.h = Bin\Include\Manager.h
+		Bin\Include\Struct.h = Bin\Include\Struct.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shader", "Shader", "{F68EF0A8-EE8D-4C59-A32F-645E31AB4E9C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Default", "Default", "{AA821C2E-4156-4BC6-99DB-EF4650B0C3AC}"
+	ProjectSection(SolutionItems) = preProject
+		Bin\Shader\Pixel_Default.glsl = Bin\Shader\Pixel_Default.glsl
+		Bin\Shader\Vertex_Default.glsl = Bin\Shader\Vertex_Default.glsl
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BackImage", "BackImage", "{84D07279-BDA3-47E1-9F90-0B4C0B5A7CBD}"
+	ProjectSection(SolutionItems) = preProject
+		Bin\Shader\Pixel_BackImage.glsl = Bin\Shader\Pixel_BackImage.glsl
+		Bin\Shader\Vertex_BackImage.glsl = Bin\Shader\Vertex_BackImage.glsl
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{DB0DAEDB-4104-4958-9346-1237BA4B8B04}"
+	ProjectSection(SolutionItems) = preProject
+		Bin\Shader\Pixel_UI.glsl = Bin\Shader\Pixel_UI.glsl
+		Bin\Shader\Vertex_UI.glsl = Bin\Shader\Vertex_UI.glsl
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Platform", "Platform", "{DFF4C1D3-495E-4A5D-8791-D302EE12353D}"
+	ProjectSection(SolutionItems) = preProject
+		Bin\Shader\Pixel_Platform.glsl = Bin\Shader\Pixel_Platform.glsl
+		Bin\Shader\Vertex_Platform.glsl = Bin\Shader\Vertex_Platform.glsl
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76CCDDA3-00D4-4857-8AFF-03F4F8624B00}.Debug|x64.ActiveCfg = Debug|x64
+		{76CCDDA3-00D4-4857-8AFF-03F4F8624B00}.Debug|x64.Build.0 = Debug|x64
+		{76CCDDA3-00D4-4857-8AFF-03F4F8624B00}.Debug|x86.ActiveCfg = Debug|Win32
+		{76CCDDA3-00D4-4857-8AFF-03F4F8624B00}.Debug|x86.Build.0 = Debug|Win32
+		{76CCDDA3-00D4-4857-8AFF-03F4F8624B00}.Release|x64.ActiveCfg = Release|x64
+		{76CCDDA3-00D4-4857-8AFF-03F4F8624B00}.Release|x64.Build.0 = Release|x64
+		{76CCDDA3-00D4-4857-8AFF-03F4F8624B00}.Release|x86.ActiveCfg = Release|Win32
+		{76CCDDA3-00D4-4857-8AFF-03F4F8624B00}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{76CCDDA3-00D4-4857-8AFF-03F4F8624B00} = {0D55B597-F23E-4128-AA3F-220C0C366482}
+		{AA821C2E-4156-4BC6-99DB-EF4650B0C3AC} = {F68EF0A8-EE8D-4C59-A32F-645E31AB4E9C}
+		{84D07279-BDA3-47E1-9F90-0B4C0B5A7CBD} = {F68EF0A8-EE8D-4C59-A32F-645E31AB4E9C}
+		{DB0DAEDB-4104-4958-9346-1237BA4B8B04} = {F68EF0A8-EE8D-4C59-A32F-645E31AB4E9C}
+		{DFF4C1D3-495E-4A5D-8791-D302EE12353D} = {F68EF0A8-EE8D-4C59-A32F-645E31AB4E9C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F8225E8C-5272-46D1-9C60-693AA76EB3E9}
+	EndGlobalSection
+EndGlobal

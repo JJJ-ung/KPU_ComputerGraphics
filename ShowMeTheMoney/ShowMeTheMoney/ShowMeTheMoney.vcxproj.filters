@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00 MainGame">
+      <UniqueIdentifier>{07b3a107-ee3d-458b-98bd-ac461447c0d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99 Default">
+      <UniqueIdentifier>{d76cc4a6-cfca-46d9-ab56-e79608e637dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01 Obj">
+      <UniqueIdentifier>{105297a3-afda-4375-8f70-7ab7bd378e5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 Component">
+      <UniqueIdentifier>{c7b30a7d-3b34-4dd3-af21-35228a64aa4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98 Manager">
+      <UniqueIdentifier>{94cdc003-0388-4fa3-914c-940070cef575}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 Component\00 Mesh">
+      <UniqueIdentifier>{27699093-94c9-45f7-8334-082ee4efab1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 Component\01 Texture">
+      <UniqueIdentifier>{dc54f1c0-c194-4502-8787-6f44515eb871}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98 Manager\00 GameManager">
+      <UniqueIdentifier>{f4164265-8a23-4a67-9f2e-b58b50a0a1ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98 Manager\01 Renderer">
+      <UniqueIdentifier>{782cac28-8d6d-46a7-bde3-9e4bee8a5c5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98 Manager\98 ShaderLoader">
+      <UniqueIdentifier>{0aa49c40-25ba-48e0-aa4a-f867e98f2ebd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01 Obj\00 Player">
+      <UniqueIdentifier>{67257576-7b12-45b6-8bb3-68a90f1a7653}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01 Obj\99 Camera">
+      <UniqueIdentifier>{46404f78-7d21-4126-8eda-d1844186241a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 Component\99 Buffer">
+      <UniqueIdentifier>{ff8d4081-d41e-402f-9aab-8cbb0503e9ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 Component\99 Buffer\00 Plane">
+      <UniqueIdentifier>{71f55034-f97a-426f-b907-94f33dda86c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03 Scene">
+      <UniqueIdentifier>{51538874-326c-491f-9360-9a228d10ac96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03 Scene\02 Game">
+      <UniqueIdentifier>{b775628e-a2f1-4f81-ab95-5f0384b99147}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03 Scene\03 Result">
+      <UniqueIdentifier>{9ceab6e7-fe3b-4039-9ade-6971876d4143}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98 Manager\02 SceneManager">
+      <UniqueIdentifier>{c84b5db9-417c-4949-9e99-c321bbebd33f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98 Manager\97 SoundManager">
+      <UniqueIdentifier>{406d113f-e7e4-4ca0-8c06-ae6631ecba3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98 Manager\03 KeyManager">
+      <UniqueIdentifier>{fa99da1a-cc34-4cbb-ad21-d6bc79278a84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98 Manager\96 TimeManager">
+      <UniqueIdentifier>{990cc988-ff34-4d44-b56e-4b8afbd31475}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03 Scene\00 Logo">
+      <UniqueIdentifier>{bdc28e6d-2db9-4325-9e6b-56a4f6f322bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98 Manager\95 FrameManager">
+      <UniqueIdentifier>{0b8a4393-427d-4e5e-931d-78b32b1afb95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 Component\02 Transform">
+      <UniqueIdentifier>{a4939386-7849-4740-ba91-ab6e907464fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01 Obj\97 UI">
+      <UniqueIdentifier>{7aa69fd5-05ee-4c6a-b2a2-c7635fe6dfbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01 Obj\98 BackObj">
+      <UniqueIdentifier>{be9a3f3f-c1ac-4ec2-9c28-00ce9a19f50f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01 Obj\98 BackObj\00 BackImage">
+      <UniqueIdentifier>{322e73c4-011f-43e6-b39d-d9b3081bd0d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01 Obj\01 Map">
+      <UniqueIdentifier>{dff5c96e-1593-43f8-b5f3-4145a339926d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01 Obj\02 Rullet">
+      <UniqueIdentifier>{5d5b48b1-2882-45f8-b6db-0d9d8ca12b10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01 Obj\97 UI\00 Sprite">
+      <UniqueIdentifier>{a13851a5-d4e6-45d1-af29-a5aaa476a686}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03 Scene\01 Select">
+      <UniqueIdentifier>{c4291080-6cd3-4a06-899b-52b62ab1bae5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01 Obj\97 UI\01 Logo">
+      <UniqueIdentifier>{faf71ff5-4fab-4a1d-ae5c-a5dbad1b2793}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01 Obj\01 Map\00 Platform">
+      <UniqueIdentifier>{835cde9a-1319-4e1d-8e7b-151fd8653637}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 Component\99 Buffer\01 Cube">
+      <UniqueIdentifier>{6b30b20c-67db-45b2-9ad3-7ab63511b9ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01 Obj\01 Map\01 Object">
+      <UniqueIdentifier>{6aa8763c-0e1f-4d36-b60c-659f9d12d9b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01 Obj\97 UI\02 Number">
+      <UniqueIdentifier>{35b9395d-2b8e-46fc-bcb5-eb7e89a0ed47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01 Obj\97 UI\03 Result">
+      <UniqueIdentifier>{8a8020cb-04d2-4915-9c65-88d40550fef1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ShowMeTheMoney.cpp">
+      <Filter>99 Default</Filter>
+    </ClCompile>
+    <ClCompile Include="CMainGame.cpp">
+      <Filter>00 MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameObj.cpp">
+      <Filter>01 Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="CComponent.cpp">
+      <Filter>02 Component</Filter>
+    </ClCompile>
+    <ClCompile Include="CMesh.cpp">
+      <Filter>02 Component\00 Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="CTexture.cpp">
+      <Filter>02 Component\01 Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="CShaderLoader.cpp">
+      <Filter>98 Manager\98 ShaderLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayer.cpp">
+      <Filter>01 Obj\00 Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CCamera.cpp">
+      <Filter>01 Obj\99 Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameManager.cpp">
+      <Filter>98 Manager\00 GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CRenderer.cpp">
+      <Filter>98 Manager\01 Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneManager.cpp">
+      <Filter>98 Manager\02 SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CKeyManager.cpp">
+      <Filter>98 Manager\03 KeyManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CTimeManager.cpp">
+      <Filter>98 Manager\96 TimeManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CSoundManager.cpp">
+      <Filter>98 Manager\97 SoundManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene.cpp">
+      <Filter>03 Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CFrameManager.cpp">
+      <Filter>98 Manager\95 FrameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlane.cpp">
+      <Filter>02 Component\99 Buffer\00 Plane</Filter>
+    </ClCompile>
+    <ClCompile Include="CTransform.cpp">
+      <Filter>02 Component\02 Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="CBackImage.cpp">
+      <Filter>01 Obj\98 BackObj\00 BackImage</Filter>
+    </ClCompile>
+    <ClCompile Include="CRullet.cpp">
+      <Filter>01 Obj\02 Rullet</Filter>
+    </ClCompile>
+    <ClCompile Include="CSprite.cpp">
+      <Filter>01 Obj\97 UI\00 Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene_Logo.cpp">
+      <Filter>03 Scene\00 Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene_Select.cpp">
+      <Filter>03 Scene\01 Select</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene_Game.cpp">
+      <Filter>03 Scene\02 Game</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene_Result.cpp">
+      <Filter>03 Scene\03 Result</Filter>
+    </ClCompile>
+    <ClCompile Include="CLogo.cpp">
+      <Filter>01 Obj\97 UI\01 Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlatform.cpp">
+      <Filter>01 Obj\01 Map\00 Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="CCube.cpp">
+      <Filter>02 Component\99 Buffer\01 Cube</Filter>
+    </ClCompile>
+    <ClCompile Include="CObject.cpp">
+      <Filter>01 Obj\01 Map\01 Object</Filter>
+    </ClCompile>
+    <ClCompile Include="CNumber.cpp">
+      <Filter>01 Obj\97 UI\02 Number</Filter>
+    </ClCompile>
+    <ClCompile Include="CResultMesh.cpp">
+      <Filter>01 Obj\97 UI\03 Result</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>99 Default</Filter>
+    </ClInclude>
+    <ClInclude Include="CMainGame.h">
+      <Filter>00 MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameObj.h">
+      <Filter>01 Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="CComponent.h">
+      <Filter>02 Component</Filter>
+    </ClInclude>
+    <ClInclude Include="CMesh.h">
+      <Filter>02 Component\00 Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="CTexture.h">
+      <Filter>02 Component\01 Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="CShaderLoader.h">
+      <Filter>98 Manager\98 ShaderLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayer.h">
+      <Filter>01 Obj\00 Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CCamera.h">
+      <Filter>01 Obj\99 Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameManager.h">
+      <Filter>98 Manager\00 GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CRenderer.h">
+      <Filter>98 Manager\01 Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneManager.h">
+      <Filter>98 Manager\02 SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CKeyManager.h">
+      <Filter>98 Manager\03 KeyManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CTimeManager.h">
+      <Filter>98 Manager\96 TimeManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CSoundManager.h">
+      <Filter>98 Manager\97 SoundManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene.h">
+      <Filter>03 Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CFrameManager.h">
+      <Filter>98 Manager\95 FrameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlane.h">
+      <Filter>02 Component\99 Buffer\00 Plane</Filter>
+    </ClInclude>
+    <ClInclude Include="CTransform.h">
+      <Filter>02 Component\02 Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="CBackImage.h">
+      <Filter>01 Obj\98 BackObj\00 BackImage</Filter>
+    </ClInclude>
+    <ClInclude Include="CRullet.h">
+      <Filter>01 Obj\02 Rullet</Filter>
+    </ClInclude>
+    <ClInclude Include="CSprite.h">
+      <Filter>01 Obj\97 UI\00 Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene_Logo.h">
+      <Filter>03 Scene\00 Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene_Select.h">
+      <Filter>03 Scene\01 Select</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene_Game.h">
+      <Filter>03 Scene\02 Game</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene_Result.h">
+      <Filter>03 Scene\03 Result</Filter>
+    </ClInclude>
+    <ClInclude Include="CLogo.h">
+      <Filter>01 Obj\97 UI\01 Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlatform.h">
+      <Filter>01 Obj\01 Map\00 Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="CCube.h">
+      <Filter>02 Component\99 Buffer\01 Cube</Filter>
+    </ClInclude>
+    <ClInclude Include="CObject.h">
+      <Filter>01 Obj\01 Map\01 Object</Filter>
+    </ClInclude>
+    <ClInclude Include="CNumber.h">
+      <Filter>01 Obj\97 UI\02 Number</Filter>
+    </ClInclude>
+    <ClInclude Include="CResultMesh.h">
+      <Filter>01 Obj\97 UI\03 Result</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

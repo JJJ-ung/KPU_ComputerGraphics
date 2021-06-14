@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99 Default">
+      <UniqueIdentifier>{74c7488a-056d-4d08-9c2e-d7e5c40d1d42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00 MainGame">
+      <UniqueIdentifier>{a179d7eb-10d9-492c-81db-22270eb3166b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01 Scene">
+      <UniqueIdentifier>{ad647481-859e-4aa4-a008-bb6e77e05cc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 Obj">
+      <UniqueIdentifier>{354fdf97-0c68-42df-a3d9-a76cd7d57823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01 Scene\01 실습13">
+      <UniqueIdentifier>{955dca6c-be44-4688-bf86-5589a4fbcce8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01 Scene\00 실습12">
+      <UniqueIdentifier>{c900c361-759b-42f4-8b0b-9625b18f1880}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01 Scene\02 실습14">
+      <UniqueIdentifier>{04711ab8-a5c2-488d-aaba-6776fd2bd3ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99 Default\Shader">
+      <UniqueIdentifier>{6b302e42-bfd0-48a6-ab3b-167faaa76752}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99 Default\ShaderLoader">
+      <UniqueIdentifier>{30af94a5-0c7b-430b-a67d-deb8a928863f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 Obj\01 Camera">
+      <UniqueIdentifier>{380b2aae-1fac-4c2d-b3aa-4dd34417d8bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 Obj\00 RenderObj">
+      <UniqueIdentifier>{6b0bfa98-be43-42f4-9b06-c84fb4655a3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 Obj\00 RenderObj\00 Shape">
+      <UniqueIdentifier>{7d2e69fc-da76-4037-9282-af2c0f54c21c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 Obj\00 RenderObj\01 Cube">
+      <UniqueIdentifier>{1b849e96-efd2-4162-b22e-74e701d53bdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 Obj\00 RenderObj\02 Mesh">
+      <UniqueIdentifier>{5255b50d-a25a-42e7-8d71-b076cbeb5756}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01 Scene\03 실습15">
+      <UniqueIdentifier>{61a7925e-af66-4e96-8ca0-6fbd52e04481}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01 Scene\04 실습 16">
+      <UniqueIdentifier>{eeb39d05-7c52-4f6a-8ca4-f70e64073c0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01 Scene\05 실습 17">
+      <UniqueIdentifier>{674c85a6-f8d1-47c2-883e-1113921e4f2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01 Scene\06 실습 18">
+      <UniqueIdentifier>{3a491022-cf27-44e5-aad7-61757885ac62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01 Scene\07 실습 19">
+      <UniqueIdentifier>{fe02898a-8430-43d9-bd30-3d821f4bb3ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01 Scene\08 실습 20">
+      <UniqueIdentifier>{50f92e48-8dc5-4c4f-9ef4-3340c10f2597}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01 Scene\03 실습15\Planet15">
+      <UniqueIdentifier>{7e7ab240-a544-41c8-9aa1-02afc0d557f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01 Scene\05 실습 17\Object17">
+      <UniqueIdentifier>{73f4b0d5-e48a-411c-962b-469d1c195c23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01 Scene\09 실습 21">
+      <UniqueIdentifier>{1d3fa7e5-ea2d-47e0-9a42-61a303d26163}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01 Scene\10 실습 22">
+      <UniqueIdentifier>{5575baa9-49de-489f-99ba-f391ecbf1a30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01 Scene\11 실습 23">
+      <UniqueIdentifier>{c2591566-aaad-4abc-94d6-80a0c0c5eabc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01 Scene\12 실습 24">
+      <UniqueIdentifier>{fa7965a3-12f5-4e95-9b5c-2741b4c87bde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01 Scene\13 실습 25">
+      <UniqueIdentifier>{01ff443e-b23c-4b90-aa66-868dac19b7fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99 Default\Shader_Light">
+      <UniqueIdentifier>{cdbda436-f618-407c-a3ef-d5423889e6ee}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CCube.cpp">
+      <Filter>02 Obj\00 RenderObj\01 Cube</Filter>
+    </ClCompile>
+    <ClCompile Include="CMesh.cpp">
+      <Filter>02 Obj\00 RenderObj\02 Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene.cpp">
+      <Filter>01 Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene12.cpp">
+      <Filter>01 Scene\00 실습12</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene13.cpp">
+      <Filter>01 Scene\01 실습13</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene14.cpp">
+      <Filter>01 Scene\02 실습14</Filter>
+    </ClCompile>
+    <ClCompile Include="CShape.cpp">
+      <Filter>02 Obj\00 RenderObj\00 Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>00 MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="CShaderLoader.cpp">
+      <Filter>99 Default\ShaderLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="CCamera.cpp">
+      <Filter>02 Obj\01 Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene15.cpp">
+      <Filter>01 Scene\03 실습15</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene16.cpp">
+      <Filter>01 Scene\04 실습 16</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene17.cpp">
+      <Filter>01 Scene\05 실습 17</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene18.cpp">
+      <Filter>01 Scene\06 실습 18</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene19.cpp">
+      <Filter>01 Scene\07 실습 19</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene20.cpp">
+      <Filter>01 Scene\08 실습 20</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlanet15.cpp">
+      <Filter>01 Scene\03 실습15\Planet15</Filter>
+    </ClCompile>
+    <ClCompile Include="CObject17.cpp">
+      <Filter>01 Scene\05 실습 17\Object17</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene21.cpp">
+      <Filter>01 Scene\09 실습 21</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene22.cpp">
+      <Filter>01 Scene\10 실습 22</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene23.cpp">
+      <Filter>01 Scene\11 실습 23</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene24.cpp">
+      <Filter>01 Scene\12 실습 24</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene25.cpp">
+      <Filter>01 Scene\13 실습 25</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CCube.h">
+      <Filter>02 Obj\00 RenderObj\01 Cube</Filter>
+    </ClInclude>
+    <ClInclude Include="CMesh.h">
+      <Filter>02 Obj\00 RenderObj\02 Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene.h">
+      <Filter>01 Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene12.h">
+      <Filter>01 Scene\00 실습12</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene13.h">
+      <Filter>01 Scene\01 실습13</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene14.h">
+      <Filter>01 Scene\02 실습14</Filter>
+    </ClInclude>
+    <ClInclude Include="CShape.h">
+      <Filter>02 Obj\00 RenderObj\00 Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99 Default</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneInclude.h">
+      <Filter>99 Default</Filter>
+    </ClInclude>
+    <ClInclude Include="CShaderLoader.h">
+      <Filter>99 Default\ShaderLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="CCamera.h">
+      <Filter>02 Obj\01 Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene15.h">
+      <Filter>01 Scene\03 실습15</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene16.h">
+      <Filter>01 Scene\04 실습 16</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene17.h">
+      <Filter>01 Scene\05 실습 17</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene18.h">
+      <Filter>01 Scene\06 실습 18</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene19.h">
+      <Filter>01 Scene\07 실습 19</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene20.h">
+      <Filter>01 Scene\08 실습 20</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlanet15.h">
+      <Filter>01 Scene\03 실습15\Planet15</Filter>
+    </ClInclude>
+    <ClInclude Include="CObject17.h">
+      <Filter>01 Scene\05 실습 17\Object17</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene21.h">
+      <Filter>01 Scene\09 실습 21</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene22.h">
+      <Filter>01 Scene\10 실습 22</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene23.h">
+      <Filter>01 Scene\11 실습 23</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene24.h">
+      <Filter>01 Scene\12 실습 24</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene25.h">
+      <Filter>01 Scene\13 실습 25</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pixel.glsl">
+      <Filter>99 Default\Shader</Filter>
+    </None>
+    <None Include="vertex.glsl">
+      <Filter>99 Default\Shader</Filter>
+    </None>
+    <None Include="vertex_light.glsl">
+      <Filter>99 Default\Shader_Light</Filter>
+    </None>
+    <None Include="pixel_light.glsl">
+      <Filter>99 Default\Shader_Light</Filter>
+    </None>
+  </ItemGroup>
+</Project>
